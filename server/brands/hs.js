@@ -12,7 +12,7 @@ export default {
   tagline: "Haqsons Group · official agent for Emaar, DAMAC, DP & Nshama",
   theme: {
     accent: "#C99A2E",
-    surface: "dark",
+    surface: "light",
     toneWords: ["premium", "institutional", "white-glove"],
   },
   personaDescriptor: "Senior consultant · 25+ years UAE · trust & access",

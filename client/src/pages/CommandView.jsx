@@ -24,12 +24,14 @@ export default function CommandView() {
       </header>
 
       <div className="command-hero rise rise-1">
-        <span className="eyebrow">Command view</span>
-        <h1>Choose a workspace</h1>
+        <span className="eyebrow command-eyebrow">
+          <span className="tridot"><i /><i /><i /></span> Command view
+        </span>
+        <h1>One platform.<br />Three brands, three agents.</h1>
         <p>
-          Three brands, three fully isolated AI sales agents. Each agent's persona,
-          knowledge and rules are compiled from its own workspace only — no brand's
-          data ever enters another's session.
+          Each agent's persona, knowledge and rules are compiled from its own
+          workspace only — no brand's data ever enters another's session. Enter a
+          workspace and the entire console re-skins.
         </p>
       </div>
 
@@ -45,10 +47,12 @@ export default function CommandView() {
                 key={b.id}
                 className={`card brand-card rise rise-${Math.min(i + 1, 4)}`}
                 style={{ "--card-accent": accent }}
+                data-brand={b.id}
+                data-mark={MARK[b.id] || b.id.toUpperCase()}
                 onClick={() => navigate(`/w/${b.id}/leads`)}
               >
                 <div className="brand-card-accent" />
-                <div className="brand-card-mark" style={{ background: accent }}>{MARK[b.id] || b.id.toUpperCase()}</div>
+                <div className="brand-card-mark">{MARK[b.id] || b.id.toUpperCase()}</div>
                 <div className="brand-card-name">{b.name}</div>
                 <div className="brand-card-tagline">{b.tagline}</div>
                 <div className="brand-card-persona">{b.personaDescriptor}</div>
@@ -61,6 +65,12 @@ export default function CommandView() {
           })}
         </div>
       )}
+
+      <div className="command-caps rise rise-4">
+        <span>Realtime voice</span><i /><span>Arabic code-switching</span><i />
+        <span>Live qualification</span><i /><span>QA scorecards</span><i />
+        <span>Handover packets</span>
+      </div>
     </div>
   );
 }

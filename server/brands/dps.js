@@ -13,7 +13,7 @@ export default {
   tagline: "The region's first permanent property exhibition · free entry, 365 days",
   theme: {
     accent: "#F0683C",
-    surface: "dark",
+    surface: "light",
     toneWords: ["neutral", "welcoming", "platform-oriented"],
   },
   personaDescriptor: "Visitor-experience ambassador · drives a visit, never a sale",

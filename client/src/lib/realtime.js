@@ -16,22 +16,20 @@
 
 const SILENCE_PROMPT_MS = 5000;
 
-// Half-duplex: mute the mic while the agent is speaking so laptop speakers
-// can't echo back into the mic (needed when demoing without headphones, where
-// browser echo cancellation isn't enough). Tradeoff: disables barge-in.
-const HALF_DUPLEX = true;
-
-// Which output device the agent's voice plays out of. The browser otherwise
-// follows the macOS *default* output (often your headphones). Set this to pin
-// the agent audio to a specific device regardless of the system default:
-//   "speakers" → built-in MacBook speakers
-//   "default"  → follow the system default output
-//   any string → match an output device whose label contains it (e.g. "USB")
-const PREFERRED_OUTPUT = "speakers";
-
-const OUTPUT_MATCHERS = {
-  speakers: /macbook|built-?in|internal|speaker/i,
-};
+/**
+ * Audio modes (operator-selectable on PreCall):
+ *
+ *   "headphones" (default) — full duplex. The mic stays open while the agent
+ *     speaks, so barge-in works (V1 behaviour, spec acceptance #9). Agent
+ *     audio follows the system default output.
+ *
+ *   "speakers" — half duplex, for demoing on laptop speakers without
+ *     headphones: the mic is muted while the agent speaks so the speakers
+ *     can't echo back into the mic (browser echo cancellation isn't enough).
+ *     Tradeoff: barge-in is disabled. Agent audio is pinned to the built-in
+ *     speakers so it doesn't land on a forgotten Bluetooth device.
+ */
+const SPEAKER_MATCHER = /macbook|built-?in|internal|speaker/i;
 
 export class RealtimeSession {
   /**
@@ -47,8 +45,10 @@ export class RealtimeSession {
    *  onStatus(string)          connection status updates
    *  onError(string)
    */
-  constructor(handlers) {
+  constructor(handlers, { audioMode = "headphones" } = {}) {
     this.h = handlers;
+    this.halfDuplex = audioMode === "speakers";
+    this.pinToSpeakers = audioMode === "speakers";
     this.pc = null;
     this.dc = null;
     this.micStream = null;
@@ -135,22 +135,21 @@ export class RealtimeSession {
 
   /* ── Data-channel event router ─────────────────────────────────────────
    * Handles both GA event names and earlier beta names defensively.      */
-  // Route the agent's <audio> element to PREFERRED_OUTPUT via setSinkId.
-  // No-op when set to "default" or when the browser lacks setSinkId support.
+  // In "speakers" mode, pin the agent's <audio> element to the built-in
+  // speakers via setSinkId. Otherwise (or without setSinkId support) the
+  // system default output is used.
   async _routeOutput() {
-    if (PREFERRED_OUTPUT === "default" || !this.audioEl?.setSinkId) return;
+    if (!this.pinToSpeakers || !this.audioEl?.setSinkId) return;
     try {
       const devices = await navigator.mediaDevices.enumerateDevices();
-      const outputs = devices.filter((d) => d.kind === "audiooutput");
-      const matcher = OUTPUT_MATCHERS[PREFERRED_OUTPUT];
-      const pick = outputs.find((d) =>
-        matcher ? matcher.test(d.label) : d.label.includes(PREFERRED_OUTPUT),
+      const pick = devices.find(
+        (d) => d.kind === "audiooutput" && SPEAKER_MATCHER.test(d.label),
       );
       if (pick) {
         await this.audioEl.setSinkId(pick.deviceId);
         console.log(`[output] agent audio → "${pick.label}"`);
       } else {
-        console.warn(`[output] no output device matched "${PREFERRED_OUTPUT}" — using system default`);
+        console.warn("[output] no built-in speaker device found — using system default");
       }
     } catch (err) {
       console.warn("[output] setSinkId failed, using system default:", err);
@@ -203,14 +202,14 @@ export class RealtimeSession {
       /* Agent audio lifecycle (WebRTC output buffer) */
       case "output_audio_buffer.started":
         this.agentSpeaking = true;
-        if (HALF_DUPLEX) this._setMicEnabled(false); // stop self-hearing
+        if (this.halfDuplex) this._setMicEnabled(false); // stop self-hearing
         this._clearSilenceTimer();
         this.h.onAgentAudioStart?.(); // latency clock stops here
         break;
       case "output_audio_buffer.stopped":
       case "output_audio_buffer.cleared":
         this.agentSpeaking = false;
-        if (HALF_DUPLEX) this._setMicEnabled(true); // customer's turn — reopen mic
+        if (this.halfDuplex) this._setMicEnabled(true); // customer's turn — reopen mic
         this.h.onAgentAudioStop?.();
         this._armSilenceTimer(); // customer's move — watch for dead air
         break;

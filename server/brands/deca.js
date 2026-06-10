@@ -11,7 +11,7 @@ export default {
   tagline: "Developer-direct off-plan · from 10% down",
   theme: {
     accent: "#04D9B2",
-    surface: "dark",
+    surface: "light",
     toneWords: ["modern", "data-confident", "investment-focused"],
   },
   personaDescriptor: "Investment consultant · developer-direct · ROI-led",

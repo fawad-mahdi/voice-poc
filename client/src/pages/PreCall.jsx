@@ -5,7 +5,7 @@ import { useCall } from "../lib/CallContext.jsx";
 import { stancesFor } from "../lib/stances.js";
 import { brandAccent } from "../theme/brandThemes.js";
 import {
-  PhoneCall, Globe, Shield, ChevronDown, Languages, Lock, Building, X,
+  PhoneCall, Globe, Shield, ChevronDown, Languages, Lock, Building, X, Mic,
 } from "../components/icons.jsx";
 
 const LANG_MODES = [
@@ -14,6 +14,18 @@ const LANG_MODES = [
   { id: "ar", label: "Arabic" },
 ];
 const LANG = { ar: "Arabic", en: "English" };
+
+const AUDIO_MODES = [
+  { id: "headphones", label: "Headphones" },
+  { id: "speakers", label: "Speakers" },
+];
+
+// Mirrors the default goal persona.js compiles server-side, so the summary /
+// call log always carry the real goal even without an operator override.
+const defaultGoal = (lead) =>
+  lead?.type === "warm"
+    ? `Reference ${lead.name}'s enquiry (${lead.source || "their recent interest"}), deepen it, qualify them, and advance to a clear next step.`
+    : `Introduce yourself warmly, understand ${lead?.name || "the caller"}'s situation, qualify them, and book a low-pressure next step.`;
 
 export default function PreCall() {
   const { brandId, leadId } = useParams();
@@ -25,6 +37,7 @@ export default function PreCall() {
 
   const stances = stancesFor(brandId);
   const [languageMode, setLanguageMode] = useState("auto");
+  const [audioMode, setAudioMode] = useState("headphones");
   const [goalOverride, setGoalOverride] = useState("");
   const [stanceId, setStanceId] = useState(stances[0].id);
   const [starting, setStarting] = useState(false);
@@ -36,7 +49,8 @@ export default function PreCall() {
     setStarting(true);
     try {
       await startCall({
-        brand, lead, languageMode, goalOverride,
+        brand, lead, languageMode, audioMode, goalOverride,
+        goal: goalOverride.trim() || defaultGoal(lead),
         stanceLabel: stance.label, stanceCue: stance.cue,
       });
       navigate(`/w/${brandId}/live`);
@@ -133,6 +147,22 @@ export default function PreCall() {
               : languageMode === "ar"
               ? "Agent opens in Gulf Arabic and mirrors thereafter."
               : "Agent speaks English; follows if the customer switches to Arabic."}
+          </p>
+        </div>
+
+        <div className="card card-pad">
+          <div className="section-label"><Mic size={14} /> Audio setup</div>
+          <div className="seg">
+            {AUDIO_MODES.map((m) => (
+              <button key={m.id} className={`seg-btn ${audioMode === m.id ? "on" : ""}`} onClick={() => setAudioMode(m.id)}>
+                {m.label}
+              </button>
+            ))}
+          </div>
+          <p className="aside-note" style={{ marginTop: 10 }}>
+            {audioMode === "headphones"
+              ? "Full duplex — you can interrupt the agent mid-sentence (barge-in)."
+              : "Demoing on laptop speakers: your mic mutes while the agent speaks, so barge-in is off."}
           </p>
         </div>
 

@@ -25,7 +25,7 @@ export function CallProvider({ children }) {
   const [micStream, setMicStream] = useState(null);
   const [displayedP50, setDisplayedP50] = useState(null);
   const [turnCount, setTurnCount] = useState(0);
-  const [callConfig, setCallConfig] = useState(null); // { brand, lead, languageMode, goalOverride }
+  const [callConfig, setCallConfig] = useState(null); // { brand, lead, languageMode, goalOverride, goal, audioMode, stance* }
   const [liveQual, setLiveQual] = useState(null);
   const [post, setPost] = useState(null);
 
@@ -120,7 +120,7 @@ export function CallProvider({ children }) {
         },
         onAgentAudioStop: () => setAgentSpeaking(false),
         onRemoteStream: () => {},
-      });
+      }, { audioMode: config.audioMode });
 
       sessionRef.current = session;
       setPhase("in-call");
@@ -184,7 +184,7 @@ export function CallProvider({ children }) {
           brandId: brand?.id,
           leadId: cfg?.lead?.id || null,
           lead: cfg?.lead || null,
-          goal: cfg?.goalOverride || "",
+          goal: cfg?.goal || cfg?.goalOverride || "",
           languageMode: cfg?.languageMode,
           startedAt: new Date(startedAtRef.current).toISOString(),
           endedAt: new Date(endedAt).toISOString(),
@@ -206,7 +206,7 @@ export function CallProvider({ children }) {
       body: JSON.stringify({
         callId,
         transcript: finalTranscript,
-        goal: cfg?.goalOverride || "",
+        goal: cfg?.goal || cfg?.goalOverride || "",
         dispositions: brand?.dispositions,
       }),
     })
