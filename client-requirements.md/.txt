@@ -1,0 +1,37 @@
+Please find below the Preliminary Requirements for the Auth-Machine AI Sales Automation project.
+ 
+As we don't yet have the full 200-point checklist, which we'll get once we're on a call with the client, the below requirements are an elaborated and researched version based on the preliminary notes we have from Aman's session. I've also added business context for each of the three entities (H&S Real Estate, Deca Properties, and DPS) so you have a clearer picture of who the AI agent is representing in each case, what their audience looks like, and the tone each persona needs to carry.
+ 
+The below covers:
+Project overview and automation scope
+Business profiles for all three entities (researched and expanded)
+Preliminary technical requirements across all pipeline stages
+EXPANDED TECHNICAL REQUIREMENTS
+Distinct AI Personas per Brand
+The agent must maintain separate behavioral personas for H&S, Deca, and DPS. Blending brand identities was the critical failure of the previous vendor.
+Per-Brand Persona Isolation
+Each agent must operate in a completely separate context. Prompts, tone, knowledge base, and escalation paths should be brand-specific. No bleed between entities.
+Culturally Calibrated Conversation
+Middle Eastern real estate sales rely heavily on trust-building before pitching. The AI must be capable of rapport-first conversation, not an immediate hard sell. Arabic/bilingual capability is likely a requirement and should be confirmed with the client.
+Off-Plan Product Knowledge
+Agents need to handle detailed questions on payment plans, handover timelines, developer reputations, ROI projections, and location comparisons. The previous vendor's bot failed at this basic level.
+Outbound Call Handling
+Cold and warm outbound calls. The agent must handle objections, qualify interest level, and decide when to escalate to a human closer without losing the lead.
+QA Layer
+Automated scoring of calls against a defined rubric (to be confirmed via the 200-point checklist). Flag non-compliant or underperforming calls for human review.
+Lead Routing Logic
+Once qualified, leads must be routed to the correct brand team and salesperson. Routing rules will depend on which entity the lead engaged with and their buyer profile.
+Human Handover Protocol
+Clean, warm handover with full context passed to the human agent. No repeating information and no dropped context. This is critical for maintaining trust throughout the buyer journey in this market.
+ 
+THE THREE ENTITIES
+H&S Real Estate
+A subsidiary of Haqsons Group, founded in 2006 under the Haq family, with 25+ years of experience in the UAE market and a presence across UAE, Pakistan, Angola, and Japan. They specialize in premium off-plan properties and luxury developments, positioning themselves as a full-service brokerage with a client-first, "white glove" approach. They are the official sales agent for Dubai's top developers including Emaar, DP, DAMAC, and Nshama, with an extensive global broker network.
+Agent persona required: High-trust, relationship-driven, premium. Speaks to both local UAE investors and international HNW clients. Tone should reflect a long-established, credible institution, not transactional.
+Deca Properties
+A Dubai-based boutique development management firm that acts as an end-to-end integration partner for premium real estate projects across the UAE, from identifying land opportunities through to handover and asset-performance optimisation. They operate a 2,600-strong broker and channel-partner network. Active projects span JVC, Meydan, Al Marjan Island, Al Zorah, DLRC, Dubai Science Park, and IMPZ, ranging from smart-home apartments to architect-designed residences and off-plan villas. All projects are sold directly by Deca, with developer-direct pricing and flexible payment plans from 10% down
+.
+Agent persona required: Developer-direct, investment-focused, flexible. Speaks to both seasoned investors and first-time buyers. Tone is modern, innovative, and data-confident, emphasising minimising risk and maximising returns.
+DPS — Dubai Property Exhibition
+DPS officially opened on March 25, 2026, at Umm Suqeim Street, Al Barsha 2, as the first-ever permanent real estate exhibition in the Middle East, operating 365 days a year from 10am–10pm, with free admission and no reservation needed. It brings together over 30 of the UAE's most reputable developers, including DAMAC, Sobha, Binghatti, Danube, Ellington, and Deca, with 400+ residential and commercial developments under one roof. It caters to three distinct audiences: real estate agents, property buyers, and investors.
+Agent persona required: Neutral, platform-oriented, and high-volume. Not selling a specific property but driving footfall and engagement to the exhibition itself. Tone is welcoming, informative, and broad. It must appeal to everyone from casual first-time buyers to institutional investors.

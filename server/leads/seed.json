@@ -1,0 +1,101 @@
+[
+  {
+    "id": "lead-001",
+    "brandId": "deca",
+    "name": "Omar Khalid",
+    "phone": "+971 5x xxx xx01",
+    "type": "warm",
+    "source": "Property Finder enquiry — Marjan Bay Residences",
+    "profile": "Repeat investor, owns 2 units in JVC. Asked about Al Marjan yields.",
+    "languagePref": "ar",
+    "budgetHintAED": 2000000
+  },
+  {
+    "id": "lead-002",
+    "brandId": "deca",
+    "name": "Hannah Becker",
+    "phone": "+971 5x xxx xx02",
+    "type": "cold",
+    "source": "Website brochure download — first-time buyer guide",
+    "profile": "First-time buyer, relocating to Dubai, unsure how off-plan works.",
+    "languagePref": "en",
+    "budgetHintAED": 800000
+  },
+  {
+    "id": "lead-003",
+    "brandId": "deca",
+    "name": "Rajesh Menon",
+    "phone": "+971 5x xxx xx03",
+    "type": "warm",
+    "source": "Instagram lead form — Meydan launch",
+    "profile": "Seasoned investor comparing Meydan appreciation vs JVC yield.",
+    "languagePref": "en",
+    "budgetHintAED": 2500000
+  },
+  {
+    "id": "lead-004",
+    "brandId": "hs",
+    "name": "Sheikh Faisal Al Qassimi",
+    "phone": "+971 5x xxx xx04",
+    "type": "warm",
+    "source": "Referral — existing private client",
+    "profile": "HNW family office, holds Downtown & Palm assets. Beachfront interest.",
+    "languagePref": "ar",
+    "budgetHintAED": 6000000
+  },
+  {
+    "id": "lead-005",
+    "brandId": "hs",
+    "name": "Eleanor Whitmore",
+    "phone": "+971 5x xxx xx05",
+    "type": "cold",
+    "source": "International enquiry (London) — Emaar Beachfront",
+    "profile": "UK-based, first Dubai purchase, store-of-value mindset.",
+    "languagePref": "en",
+    "budgetHintAED": 3000000
+  },
+  {
+    "id": "lead-006",
+    "brandId": "hs",
+    "name": "Yusuf Demir",
+    "phone": "+971 5x xxx xx06",
+    "type": "warm",
+    "source": "Cityscape exhibition — DAMAC Lagoons stand",
+    "profile": "Family end-user, wants a 4BR townhouse for relocation from Istanbul.",
+    "languagePref": "en",
+    "budgetHintAED": 2400000
+  },
+  {
+    "id": "lead-007",
+    "brandId": "dps",
+    "name": "Priya Sharma",
+    "phone": "+971 5x xxx xx07",
+    "type": "cold",
+    "source": "Exhibition website — 'plan your visit' form",
+    "profile": "End-user browsing communities for a family home, early stage.",
+    "languagePref": "en",
+    "budgetHintAED": 1500000
+  },
+  {
+    "id": "lead-008",
+    "brandId": "dps",
+    "name": "Marcus Lindqvist",
+    "phone": "+971 5x xxx xx08",
+    "type": "warm",
+    "source": "Investor newsletter — Golden Visa advisory desk",
+    "profile": "Overseas investor wanting to compare developers and Golden Visa routes.",
+    "languagePref": "en",
+    "budgetHintAED": 2000000
+  },
+  {
+    "id": "lead-009",
+    "brandId": "dps",
+    "name": "Layla Haddad",
+    "phone": "+971 5x xxx xx09",
+    "type": "warm",
+    "source": "Broker enquiry — agent sourcing session",
+    "profile": "Real-estate agent sourcing inventory across developers for clients.",
+    "languagePref": "ar",
+    "budgetHintAED": null
+  }
+]

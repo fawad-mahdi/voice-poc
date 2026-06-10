@@ -1,0 +1,45 @@
+{
+  "disclaimer": "demo data — fictionalised exhibition facts for POC only",
+  "exhibition": {
+    "name": "DPS — Dubai Property Exhibition",
+    "tagline": "The region's first permanent real-estate exhibition",
+    "opened": "25 March 2026",
+    "location": "Al Barsha 2, Dubai (next to Mall of the Emirates district)",
+    "hours": "10:00 – 22:00, 365 days a year",
+    "entry": "Free entry, no appointment required",
+    "scale": {
+      "developers": "30+ developers under one roof",
+      "developments": "400+ developments on display",
+      "featuredDevelopers": ["Emaar", "DAMAC", "Sobha", "Binghatti", "Danube", "Ellington", "Nakheel", "Deca Properties"]
+    },
+    "whatYouCanDo": [
+      "Compare 400+ off-plan and ready projects side by side in one place",
+      "Meet developer sales teams directly — no broker layer",
+      "Walk scale models, VR unit tours, and full payment-plan breakdowns",
+      "Independent mortgage and Golden Visa advisory desks on site"
+    ]
+  },
+  "audiences": [
+    {
+      "type": "buyer",
+      "label": "End-user / home buyer",
+      "getsFromVisit": "See and compare communities for your own home in an afternoon, walk real scale models and VR tours, and speak to multiple developers without driving across the city. Mortgage advisors on site help you understand what you can afford."
+    },
+    {
+      "type": "investor",
+      "label": "Investor",
+      "getsFromVisit": "Compare yields, payment plans and handover timelines across 30+ developers neutrally, in one sitting. Golden Visa and financing desks on site. The fastest way to build a shortlist without committing to any one sales office."
+    },
+    {
+      "type": "agent",
+      "label": "Real-estate agent / broker",
+      "getsFromVisit": "Source inventory across 30+ developers in one room, meet developer channel teams, pick up updated availability and commission structures, and bring clients for guided tours. A standing sourcing floor you can use any day of the year."
+    }
+  ],
+  "visitSlots": [
+    { "id": "dps-vip-thu", "label": "Thu 7:00pm — VIP guided tour", "desc": "Hosted walkthrough with a visitor-experience ambassador; priority developer meetings." },
+    { "id": "dps-weekend", "label": "Sat 11:00am — Weekend open floor", "desc": "Family-friendly; kids' area, all developer stands staffed." },
+    { "id": "dps-agent-brief", "label": "Tue 4:00pm — Agent sourcing session", "desc": "For brokers: channel teams and updated availability sheets." }
+  ],
+  "pricingPolicy": "DPS NEVER quotes unit prices and never recommends one project over another. When asked about price, pivot: every developer is on the floor — compare them yourself in one visit, with full payment-plan breakdowns at each stand."
+}

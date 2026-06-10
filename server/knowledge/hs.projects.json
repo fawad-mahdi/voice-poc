@@ -1,0 +1,128 @@
+{
+  "disclaimer": "demo data — fictionalised availability/prices for POC only. H&S brokers third-party developer inventory under official mandate.",
+  "projects": [
+    {
+      "projectId": "hs-emaar-beachfront",
+      "name": "Marina Horizon at Emaar Beachfront",
+      "location": "Emaar Beachfront, Dubai Harbour",
+      "developer": "Emaar Properties",
+      "developerTrackRecord": "Dubai's flagship developer; Downtown, Dubai Marina, Dubai Hills",
+      "type": "1–4BR sea-view apartments, private beach",
+      "priceFromAED": 2950000,
+      "paymentPlan": "10% down / 70% during construction / 20% on handover",
+      "handover": "Q4 2027",
+      "roiNotes": "Prime gated island; capital appreciation-led, ~5–6% yields, very strong resale among HNW buyers",
+      "comparisons": [
+        "vs Creek Harbour: Beachfront is sea-and-marina facing with private beach; Creek is skyline-and-creek facing"
+      ],
+      "sellingPoints": ["private beach", "gated island between Marina & Palm", "Emaar brand resale strength", "HNW community"],
+      "faqs": [
+        { "q": "Is this a good store of value?", "a": "Emaar Beachfront has been among the most resilient resale markets in Dubai; we treat it as a blue-chip hold." }
+      ]
+    },
+    {
+      "projectId": "hs-creek-harbour",
+      "name": "Creekside Vista at Dubai Creek Harbour",
+      "location": "Dubai Creek Harbour",
+      "developer": "Emaar Properties",
+      "developerTrackRecord": "Dubai's flagship developer",
+      "type": "1–3BR apartments, creek & skyline views",
+      "priceFromAED": 1750000,
+      "paymentPlan": "10% down / 80% during construction / 10% on handover",
+      "handover": "Q2 2028",
+      "roiNotes": "Master-planned waterfront district; appreciation play anchored by the future Dubai Creek Tower",
+      "comparisons": [
+        "vs Emaar Beachfront: lower entry, creek setting rather than beach, longer build horizon"
+      ],
+      "sellingPoints": ["Emaar master-community", "creek promenade lifestyle", "lower entry than Beachfront"],
+      "faqs": []
+    },
+    {
+      "projectId": "hs-damac-lagoons",
+      "name": "Costa Brava at DAMAC Lagoons",
+      "location": "DAMAC Lagoons, Dubailand",
+      "developer": "DAMAC Properties",
+      "developerTrackRecord": "Major Dubai developer; DAMAC Hills, Safa One",
+      "type": "4–5BR townhouses & villas, lagoon community",
+      "priceFromAED": 2350000,
+      "paymentPlan": "20% down / 55% during construction / 25% on handover",
+      "handover": "Q3 2027",
+      "roiNotes": "Family end-user demand; villa segment with strong rental and appreciation in the master community",
+      "comparisons": [
+        "vs Nshama Town Square: Lagoons is more resort-styled and higher-priced; Town Square is value family living"
+      ],
+      "sellingPoints": ["Mediterranean-themed lagoons", "townhouse/villa for families", "established DAMAC master-plan"],
+      "faqs": []
+    },
+    {
+      "projectId": "hs-damac-safa",
+      "name": "Safa Gate by DAMAC",
+      "location": "Sheikh Zayed Road, Al Safa",
+      "developer": "DAMAC Properties",
+      "developerTrackRecord": "Major Dubai developer",
+      "type": "1–3BR branded-residence apartments",
+      "priceFromAED": 1990000,
+      "paymentPlan": "20% down / 40% during construction / 40% on handover",
+      "handover": "Q1 2028",
+      "roiNotes": "Branded-residence premium on SZR; central location supports both yield and appreciation",
+      "comparisons": [
+        "vs Emaar Beachfront: more central/urban SZR address vs beachfront island"
+      ],
+      "sellingPoints": ["Sheikh Zayed Road frontage", "branded residence", "central Dubai access"],
+      "faqs": []
+    },
+    {
+      "projectId": "hs-dp-madinat-jumeirah",
+      "name": "Madinat Jumeirah Living — Phase Collection",
+      "location": "Madinat Jumeirah Living, Umm Suqeim",
+      "developer": "Dubai Properties (Dubai Holding)",
+      "developerTrackRecord": "Master-developer of JBR, Business Bay, Madinat Jumeirah Living",
+      "type": "1–3BR apartments facing Burj Al Arab",
+      "priceFromAED": 2600000,
+      "paymentPlan": "10% down / 50% during construction / 40% on handover",
+      "handover": "Q4 2026",
+      "roiNotes": "Walkable to Madinat Jumeirah & Burj Al Arab; scarce supply supports premium resale",
+      "comparisons": [
+        "vs Creek Harbour: more established, beach-district address, nearer handover"
+      ],
+      "sellingPoints": ["Burj Al Arab views", "walk to Madinat Jumeirah souk & beach", "limited supply"],
+      "faqs": []
+    },
+    {
+      "projectId": "hs-nshama-town-square",
+      "name": "Town Square Park Residences by Nshama",
+      "location": "Town Square Dubai, Al Qudra Road",
+      "developer": "Nshama",
+      "developerTrackRecord": "Town Square master-community developer",
+      "type": "1–3BR apartments & 3–4BR townhouses",
+      "priceFromAED": 980000,
+      "paymentPlan": "10% down / 40% during construction / 50% on handover",
+      "handover": "Q3 2027",
+      "roiNotes": "Value family community; ~6–7% yields, strong end-user occupancy",
+      "comparisons": [
+        "vs DAMAC Lagoons: more affordable family living, less resort-themed"
+      ],
+      "sellingPoints": ["value entry for a master-community", "large central park", "family end-user demand", "50% on handover"],
+      "faqs": [
+        { "q": "Good for a first investment?", "a": "Yes — it's our most accessible mandate, with a relaxed handover-weighted plan and reliable tenant demand." }
+      ]
+    },
+    {
+      "projectId": "hs-emaar-dubai-hills",
+      "name": "Golf Vista at Dubai Hills Estate",
+      "location": "Dubai Hills Estate",
+      "developer": "Emaar Properties",
+      "developerTrackRecord": "Dubai's flagship developer",
+      "type": "1–3BR apartments overlooking the golf course",
+      "priceFromAED": 1880000,
+      "paymentPlan": "10% down / 70% during construction / 20% on handover",
+      "handover": "Q2 2027",
+      "roiNotes": "Mature green master-community between Downtown and Marina; balanced yield + appreciation",
+      "comparisons": [
+        "vs Town Square: more premium green community, higher entry, stronger appreciation"
+      ],
+      "sellingPoints": ["golf-course frontage", "central green community", "Dubai Hills Mall & schools"],
+      "faqs": []
+    }
+  ]
+}

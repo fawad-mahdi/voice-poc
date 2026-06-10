@@ -1,0 +1,7 @@
+node_modules
+.env
+server/data/calls/*.json
+client/dist
+.DS_Store
+.playwright-mcp
+.claude

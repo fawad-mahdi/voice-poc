@@ -1,0 +1,136 @@
+{
+  "disclaimer": "demo data — fictionalised projects, invented prices/figures for POC only",
+  "projects": [
+    {
+      "projectId": "deca-marjan-bay",
+      "name": "Marjan Bay Residences",
+      "location": "Al Marjan Island, Ras Al Khaimah",
+      "developer": "Deca Properties",
+      "developerTrackRecord": "4 delivered projects, avg. 2 months early handover",
+      "type": "1–3BR smart-home apartments, beachfront",
+      "priceFromAED": 1450000,
+      "paymentPlan": "10% down / 50% during construction / 40% on handover; post-handover option to 2029",
+      "handover": "Q4 2027",
+      "roiNotes": "Al Marjan short-term rental yields ~9–11% gross (demo figure); Wynn Al Marjan casino-resort opening 2027 is the area's main demand driver",
+      "comparisons": [
+        "vs JVC: higher gross yield (~9–11% vs ~6–7%) but longer commute to central Dubai and a newer, less-proven resale market",
+        "vs Al Zorah: similar beachfront premium, but Marjan has the Wynn catalyst"
+      ],
+      "sellingPoints": ["direct beachfront", "post-handover payment plan", "Wynn Al Marjan demand catalyst", "developer-direct pricing, no broker premium"],
+      "faqs": [
+        { "q": "Is there a post-handover payment plan?", "a": "Yes — 40% on handover can be spread to 2029 at 0% interest on selected units." },
+        { "q": "How liquid is RAK resale?", "a": "Thinner than Dubai today, but transaction volume on Al Marjan has roughly tripled since the Wynn announcement (demo figure). We position it as a 3–5 year hold." }
+      ]
+    },
+    {
+      "projectId": "deca-jvc-pulse",
+      "name": "Pulse Tower JVC",
+      "location": "Jumeirah Village Circle, Dubai",
+      "developer": "Deca Properties",
+      "developerTrackRecord": "4 delivered projects, avg. 2 months early handover",
+      "type": "Studios & 1–2BR apartments",
+      "priceFromAED": 720000,
+      "paymentPlan": "20% down / 40% during construction / 40% on handover",
+      "handover": "Q2 2026",
+      "roiNotes": "JVC gross yields ~6–7%; one of Dubai's most rented communities, very liquid resale",
+      "comparisons": [
+        "vs Marjan Bay: lower yield but inside Dubai, faster resale, proven tenant demand",
+        "vs Dubai Science Park: comparable price point, JVC has stronger short-let demand"
+      ],
+      "sellingPoints": ["entry price point", "high occupancy community", "near handover — short capital lock-up", "strong resale liquidity"],
+      "faqs": [
+        { "q": "Can I short-let it on Airbnb?", "a": "Yes, JVC permits holiday-home licensing; many of our owners run it as a short-let." }
+      ]
+    },
+    {
+      "projectId": "deca-meydan-vista",
+      "name": "Meydan Vista",
+      "location": "Meydan, Mohammed Bin Rashid City, Dubai",
+      "developer": "Deca Properties",
+      "developerTrackRecord": "4 delivered projects, avg. 2 months early handover",
+      "type": "1–3BR apartments & 3BR townhouses",
+      "priceFromAED": 1850000,
+      "paymentPlan": "10% down / 50% during construction / 40% on handover",
+      "handover": "Q1 2028",
+      "roiNotes": "Meydan capital appreciation play; rental yields ~5–6% but strong price growth near Downtown",
+      "comparisons": [
+        "vs JVC: higher entry, lower yield, but stronger capital appreciation and prestige address",
+        "vs DLRC: more central, faster access to Downtown/DIFC"
+      ],
+      "sellingPoints": ["10 min to Downtown", "racecourse & lagoon district", "townhouse option for end-users", "appreciation-led"],
+      "faqs": [
+        { "q": "Is this better for rental income or appreciation?", "a": "Appreciation. For pure yield we'd point you at JVC or Marjan Bay; Meydan is a capital-growth hold." }
+      ]
+    },
+    {
+      "projectId": "deca-zorah-cove",
+      "name": "Al Zorah Cove",
+      "location": "Al Zorah, Ajman",
+      "developer": "Deca Properties",
+      "developerTrackRecord": "4 delivered projects, avg. 2 months early handover",
+      "type": "1–2BR apartments, waterfront & golf",
+      "priceFromAED": 980000,
+      "paymentPlan": "15% down / 45% during construction / 40% on handover",
+      "handover": "Q3 2027",
+      "roiNotes": "Emerging waterfront; ~7–8% gross yields (demo figure), mangrove-and-golf lifestyle buyers",
+      "comparisons": [
+        "vs Marjan Bay: quieter, no casino catalyst, but lower entry and protected nature setting"
+      ],
+      "sellingPoints": ["mangrove waterfront", "golf community", "lower entry than Dubai beachfront", "nature-led lifestyle"],
+      "faqs": []
+    },
+    {
+      "projectId": "deca-dlrc-green",
+      "name": "DLRC Green Residences",
+      "location": "Dubai Land Residence Complex (DLRC), Dubai",
+      "developer": "Deca Properties",
+      "developerTrackRecord": "4 delivered projects, avg. 2 months early handover",
+      "type": "Studios & 1–2BR apartments",
+      "priceFromAED": 640000,
+      "paymentPlan": "20% down / 30% during construction / 50% on handover",
+      "handover": "Q4 2026",
+      "roiNotes": "Value community, ~7% gross yields; popular with first-time investors for the low ticket",
+      "comparisons": [
+        "vs JVC: cheaper entry, slightly less established but improving connectivity"
+      ],
+      "sellingPoints": ["lowest entry ticket", "first-time-investor friendly", "50% on handover eases cashflow"],
+      "faqs": [
+        { "q": "I'm a first-time buyer — how does off-plan even work?", "a": "You pay a deposit now, instalments as we build, and the balance at handover. You own the unit on completion; many first-timers start here for the low entry." }
+      ]
+    },
+    {
+      "projectId": "deca-science-park",
+      "name": "Innovation Heights",
+      "location": "Dubai Science Park, Al Barsha South, Dubai",
+      "developer": "Deca Properties",
+      "developerTrackRecord": "4 delivered projects, avg. 2 months early handover",
+      "type": "1–2BR apartments",
+      "priceFromAED": 850000,
+      "paymentPlan": "10% down / 50% during construction / 40% on handover",
+      "handover": "Q2 2027",
+      "roiNotes": "Tenant base of professionals from the science/biotech cluster; ~6–7% yields",
+      "comparisons": [
+        "vs IMPZ/Production City: similar price, Science Park has a more affluent tenant profile"
+      ],
+      "sellingPoints": ["stable professional tenant base", "near JVC/Motor City amenities", "balanced yield + appreciation"],
+      "faqs": []
+    },
+    {
+      "projectId": "deca-impz-loft",
+      "name": "Production City Lofts",
+      "location": "IMPZ / Dubai Production City, Dubai",
+      "developer": "Deca Properties",
+      "developerTrackRecord": "4 delivered projects, avg. 2 months early handover",
+      "type": "Studios & 1BR loft apartments",
+      "priceFromAED": 560000,
+      "paymentPlan": "20% down / 40% during construction / 40% on handover",
+      "handover": "Q1 2027",
+      "roiNotes": "Highest gross yields in the portfolio (~7–8%) on the lowest entry; budget-investor favourite",
+      "comparisons": [
+        "vs DLRC: comparable entry, IMPZ has slightly higher yields but smaller units"
+      ],
+      "sellingPoints": ["lowest price per sqft", "strong gross yield", "compact short-let units"],
+      "faqs": []
+    }
+  ]
+}
