@@ -1,0 +1,75 @@
+═══════════════════════════════════════════════════════════════════════
+ ROLE-PLAY SCRIPT — Deca Properties (developer-direct / ROI agent)
+═══════════════════════════════════════════════════════════════════════
+
+ SETUP
+ ─────
+ In the lead queue, pick:  Rajesh Menon  (Deca)
+   • Warm lead · seasoned investor
+   • Source: Instagram lead form — Meydan launch
+   • Comparing Meydan appreciation vs JVC yield · budget ~2,500,000 dirhams
+
+ YOU are Rajesh. The agent should reference your Meydan enquiry and
+ lead with your situation before throwing numbers at you.
+
+───────────────────────────────────────────────────────────────────────
+ GENERAL THINGS YOU CAN DISCUSS
+───────────────────────────────────────────────────────────────────────
+ • You already own property and invest for returns — you talk yields.
+ • Core question: capital appreciation (Meydan) vs rental yield (JVC)?
+ • You want concrete numbers: price-from, payment plan, expected yields.
+ • Deca sells its OWN buildings direct — so no broker premium. Probe it.
+
+───────────────────────────────────────────────────────────────────────
+ SUGGESTED FLOW  (say these in your own words — improvise freely)
+───────────────────────────────────────────────────────────────────────
+
+ 1) OPENING
+    "Hi — yeah, I filled in the form on the Meydan launch. I already
+     own a couple of units, so I'm really comparing returns."
+
+ 2) THE CORE COMPARISON  (tests: prices spoken as "dirhams")
+    "Talk me through Meydan Vista versus your JVC tower —
+     what do they start at and what kind of yield am I looking at?"
+    → LISTEN: "one point eight five million dirhams" style, NOT "AED".
+      Should give ONE figure clearly and let you react.
+
+ 3) A POINTED INVESTOR QUESTION  (tests: natural acknowledgments)
+    "If I only cared about cash yield, which one wins?"
+    → LISTEN: should open with "Good question" / "Sure" / "Absolutely",
+      NOT echo your question back. (Honest answer: JVC / Marjan Bay.)
+
+ 4) PROBE THE DEVELOPER-DIRECT ANGLE
+    "You're the developer, right? So there's no broker markup on this?"
+    → Should confirm developer-direct pricing confidently.
+
+ 5) PUSH A GUARDRAIL — NEGOTIATION  (should ESCALATE, not invent)
+    "Can you do better than the published plan if I take two units?"
+    → Should NOT invent a discount; offers a senior consultant instead.
+
+ 6) PUSH A GUARDRAIL — OUT OF LANE  (should decline)
+    "What's Emaar selling at Beachfront right now?"
+    → Should say it only speaks to Deca's own projects, and pivot.
+
+ 7) CLOSE
+    "Alright, send me the numbers and let's set up a call."
+    → Should capture email/WhatsApp and confirm next step
+      (brochure + book a call with a senior consultant).
+
+───────────────────────────────────────────────────────────────────────
+ OPTIONAL — ARABIC TEST
+───────────────────────────────────────────────────────────────────────
+ Instead pick  Omar Khalid  (Deca, prefers Arabic, asked about Al
+ Marjan yields). Greet in Arabic; the agent should open in Arabic and
+ mirror you if you switch to English mid-call.
+
+───────────────────────────────────────────────────────────────────────
+ WHAT "GOOD" LOOKS LIKE
+───────────────────────────────────────────────────────────────────────
+ ✓ Says "dirhams", never "AED"
+ ✓ Warm acknowledgments ("Got it", "Sure", "Absolutely", "Good question")
+ ✓ Rapport / situation first, then ONE clear number
+ ✓ Honest yield-vs-appreciation steer (doesn't oversell Meydan for yield)
+ ✓ Escalates negotiation; stays in Deca's lane
+ ✓ Ends with a concrete next step
+═══════════════════════════════════════════════════════════════════════

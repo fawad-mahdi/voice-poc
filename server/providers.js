@@ -34,18 +34,29 @@ const providers = {
               // Live transcription of the CUSTOMER side, streamed back over
               // the data channel so the UI can render it in real time.
               transcription: { model: "gpt-4o-mini-transcribe" },
-              // Server-side VAD = the model decides when the customer's turn
-              // ended. silence_duration_ms tuned for natural pauses.
+              // Semantic VAD: a model judges whether the customer actually
+              // finished and intends to yield the turn, so backchannels like
+              // "ok"/"yeah"/"mhm" no longer truncate the agent or trigger a
+              // spurious re-answer. `eagerness: "auto"` lets the API balance
+              // responsiveness vs. waiting for the customer to finish.
               turn_detection: {
-                type: "server_vad",
-                threshold: 0.5,
-                prefix_padding_ms: 300,
-                silence_duration_ms: vadSilenceMs,
+                type: "semantic_vad",
+                eagerness: "auto",
                 // Auto-respond when the turn ends — no extra round trip.
                 create_response: true,
-                // Auto-truncate agent audio when the customer barges in.
+                // Auto-truncate agent audio when the customer genuinely barges in.
                 interrupt_response: true,
               },
+              // ── ROLLBACK (previous energy-based VAD) ─────────────────────
+              // If semantic_vad misbehaves, delete the block above and restore:
+              // turn_detection: {
+              //   type: "server_vad",
+              //   threshold: 0.5,
+              //   prefix_padding_ms: 300,
+              //   silence_duration_ms: vadSilenceMs,
+              //   create_response: true,
+              //   interrupt_response: true,
+              // },
             },
             output: { voice },
           },

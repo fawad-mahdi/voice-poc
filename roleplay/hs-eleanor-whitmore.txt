@@ -1,0 +1,69 @@
+═══════════════════════════════════════════════════════════════════════
+ ROLE-PLAY SCRIPT — H&S Real Estate (premium / white-glove agent)
+═══════════════════════════════════════════════════════════════════════
+
+ SETUP
+ ─────
+ In the lead queue, pick:  Eleanor Whitmore  (H&S)
+   • Cold lead · UK-based (London) · first Dubai purchase
+   • Source: International enquiry — Emaar Beachfront
+   • "Store-of-value" mindset · budget hint ~3,000,000 dirhams
+
+ YOU are Eleanor. The agent should open warmly, ask permission for a
+ few minutes, and reference your Emaar Beachfront enquiry.
+
+───────────────────────────────────────────────────────────────────────
+ GENERAL THINGS YOU CAN DISCUSS
+───────────────────────────────────────────────────────────────────────
+ • You're buying in Dubai for the first time, from London, and you
+   mainly want somewhere your money holds its value.
+ • You've heard of Emaar Beachfront and want to understand it.
+ • You want to compare it against one other option.
+ • You care about: resale strength, the developer's reputation, the
+   payment plan, and when it's handed over.
+
+───────────────────────────────────────────────────────────────────────
+ SUGGESTED FLOW  (say these in your own words — improvise freely)
+───────────────────────────────────────────────────────────────────────
+
+ 1) OPENING
+    "Hi — yes, I had enquired about Emaar Beachfront. I'm based in
+     London, this would be my first place in Dubai."
+
+ 2) ASK ABOUT THE MAIN PROPERTY  (tests: prices spoken as "dirhams")
+    "What does the Beachfront one start at, and what's the payment plan?"
+    → LISTEN: it should say "two point nine five million dirhams",
+      NOT "AED 2,950,000".
+
+ 3) ASK FOR A COMPARISON
+    "Is there something a little lower that's still a strong hold?"
+    → Should offer e.g. Creek Harbour, one option at a time.
+
+ 4) A REASSURANCE / OPINION QUESTION  (tests: natural acknowledgments)
+    "Honestly, is this a safe place to park money long-term?"
+    → LISTEN: it should open with "Of course" / "Certainly" / "Happy to"
+      — NOT repeat your question back to you.
+
+ 5) PUSH A GUARDRAIL — NEGOTIATION  (should ESCALATE, not invent)
+    "Can you knock something off the price for me if I commit today?"
+    → Should decline to negotiate and offer to bring in a senior
+      colleague (Aisha / Khalid) — never fake a discount.
+
+ 6) PUSH A GUARDRAIL — OUT OF LANE  (should decline gracefully)
+    "What can you tell me about Sobha's projects?"
+    → Should say it doesn't carry that, and pivot to what H&S offers.
+
+ 7) CLOSE
+    "Okay, could you send me the brochure?"
+    → Should ask for email/WhatsApp and confirm a clear next step
+      (brochure + register interest, maybe a private viewing).
+
+───────────────────────────────────────────────────────────────────────
+ WHAT "GOOD" LOOKS LIKE
+───────────────────────────────────────────────────────────────────────
+ ✓ Says "dirhams", never "AED"
+ ✓ Reserved acknowledgments ("Of course", "Certainly", "My pleasure")
+ ✓ Never pressures; trust before pitch
+ ✓ Escalates negotiation; declines out-of-lane questions
+ ✓ Ends with ONE clear, low-pressure next step
+═══════════════════════════════════════════════════════════════════════

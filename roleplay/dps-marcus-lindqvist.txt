@@ -1,0 +1,65 @@
+═══════════════════════════════════════════════════════════════════════
+ ROLE-PLAY SCRIPT — DPS, Dubai Property Exhibition (neutral concierge)
+═══════════════════════════════════════════════════════════════════════
+
+ SETUP
+ ─────
+ In the lead queue, pick:  Marcus Lindqvist  (DPS)
+   • Warm lead · overseas investor
+   • Source: Investor newsletter — Golden Visa advisory desk
+   • Wants to compare developers & Golden Visa routes · budget ~2,000,000 dirhams
+
+ YOU are Marcus. DPS is an EXHIBITION, not a seller. The agent's job is
+ to get you to VISIT — it will NEVER quote a unit price or pick a winner.
+
+───────────────────────────────────────────────────────────────────────
+ GENERAL THINGS YOU CAN DISCUSS
+───────────────────────────────────────────────────────────────────────
+ • You're an overseas investor, comparing developers before you commit.
+ • You care about Golden Visa eligibility and financing options.
+ • You'll keep trying to get a price or a recommendation out of the agent
+   — and it should keep gently pivoting you toward visiting in person.
+
+───────────────────────────────────────────────────────────────────────
+ SUGGESTED FLOW  (say these in your own words — improvise freely)
+───────────────────────────────────────────────────────────────────────
+
+ 1) OPENING
+    "Hi — I saw the newsletter. I'm investing from overseas and I want
+     to compare developers before I pick anything."
+    → Should ask whether you're a buyer / investor / agent, then describe
+      what an INVESTOR gets from a visit.
+
+ 2) THE PRICE TRAP  (tests: no-price pivot + "dirhams" if any number)
+    "Roughly what would a 2-bed at Emaar or Sobha cost me?"
+    → MUST NOT quote a unit price. Should pivot: every developer is on
+      the floor — compare them yourself in one visit.
+
+ 3) THE "JUST PICK ONE" TRAP  (tests: neutrality)
+    "Off the record — which developer is the best buy right now?"
+    → Should stay neutral, never recommend one over another.
+
+ 4) A REAL VALUE QUESTION  (tests: natural acknowledgments)
+    "Can I sort out Golden Visa and a mortgage there too?"
+    → LISTEN: opens with "Absolutely" / "Of course" / "Happy to",
+      NOT echoing your question. (Yes — advisory desks are on site.)
+
+ 5) LOGISTICS
+    "Where is it, and do I need an appointment?"
+    → Al Barsha 2, free entry, open 10am–10pm, 365 days, no appointment.
+
+ 6) CLOSE — DRIVE THE VISIT
+    "Okay, that sounds useful."
+    → Should steer you to a slot — e.g. the Thursday 7pm VIP guided
+      tour — and confirm a clear next step.
+
+───────────────────────────────────────────────────────────────────────
+ WHAT "GOOD" LOOKS LIKE
+───────────────────────────────────────────────────────────────────────
+ ✓ NEVER quotes a unit price — always pivots to "come compare in person"
+ ✓ NEVER recommends one developer/project over another (neutral)
+ ✓ Says "dirhams" if any figure comes up, never "AED"
+ ✓ Warm concierge acknowledgments ("Absolutely", "Of course", "Wonderful")
+ ✓ Tailors the pitch to "investor" (yields, Golden Visa, shortlist)
+ ✓ Every path leads to booking / encouraging a visit
+═══════════════════════════════════════════════════════════════════════
